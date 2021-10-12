@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "830593109386",
+    "firebase_url": "https://bettertestapp-default-rtdb.firebaseio.com",
+    "project_id": "bettertestapp",
+    "storage_bucket": "bettertestapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830593109386:android:491fccbe3555f527a8cc73",
+        "android_client_info": {
+          "package_name": "co.jp.sns.better"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830593109386-j0dak1cfhf6lk0t3f6equuu6nvs6hg21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDemBa07N0Ql3HbH7Z1agRuCusuGs1O6hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830593109386-j0dak1cfhf6lk0t3f6equuu6nvs6hg21.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "830593109386-0fga56v97lglec5hp9vi2afnj01cqtpb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.betterchat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830593109386:android:3a6375c6c6e9c0a4a8cc73",
+        "android_client_info": {
+          "package_name": "co.jp.sns.chao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830593109386-j0dak1cfhf6lk0t3f6equuu6nvs6hg21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDemBa07N0Ql3HbH7Z1agRuCusuGs1O6hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830593109386-j0dak1cfhf6lk0t3f6equuu6nvs6hg21.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "830593109386-0fga56v97lglec5hp9vi2afnj01cqtpb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.betterchat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830593109386:android:7b75f58e81b7d6eca8cc73",
+        "android_client_info": {
+          "package_name": "co.jp.sns.match"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830593109386-j0dak1cfhf6lk0t3f6equuu6nvs6hg21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDemBa07N0Ql3HbH7Z1agRuCusuGs1O6hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830593109386-j0dak1cfhf6lk0t3f6equuu6nvs6hg21.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "830593109386-0fga56v97lglec5hp9vi2afnj01cqtpb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.betterchat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
