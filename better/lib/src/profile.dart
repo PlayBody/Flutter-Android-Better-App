@@ -71,6 +71,7 @@ class _Profile extends State<Profile> {
             actionType: 'profile',
             isLeading: true,
             blockTap: () => setBlockUser(),
+            newsTap: () => sendNewsUser(),
           ),
           body: Container(
               child: FutureBuilder<List>(
@@ -300,7 +301,18 @@ class _Profile extends State<Profile> {
       'block_user_id': widget.profileId,
       'owner_id': globals.userId,
     }).then((v) => results = v);
-    Dialogs().infoDialog(context, 'ブロックしました。');
+    await Dialogs().waitDialog(context, 'ブロックしました。');
+    Navigator.pop(context);
+  }
+
+  Future<void> sendNewsUser() async {
+    Map<dynamic, dynamic> results = {};
+    await Webservice().callHttp(context, apiBlockUser, {
+      'block_user_id': widget.profileId,
+      'owner_id': globals.userId,
+    }).then((v) => results = v);
+    await Dialogs().waitDialog(context, '通報しました。');
+    Navigator.pop(context);
   }
 
   void goWebView() {

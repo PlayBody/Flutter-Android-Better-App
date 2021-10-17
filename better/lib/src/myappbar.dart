@@ -12,7 +12,9 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String? actionType;
   final bool? isLeading;
   final GestureTapCallback? blockTap;
-  const MyAppBar({this.actionType, this.isLeading, this.blockTap, Key? key})
+  final GestureTapCallback? newsTap;
+  const MyAppBar(
+      {this.actionType, this.isLeading, this.blockTap, this.newsTap, Key? key})
       : super(key: key);
   @override
   Size get preferredSize => const Size.fromHeight(60);
@@ -58,9 +60,8 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
                       padding: EdgeInsets.all(0),
                       elevation: 0,
                       onPrimary: Colors.white),
-                  onPressed: () {},
-                  child: Container(
-                      child: Icon(Icons.notifications_none_outlined)))),
+                  onPressed: newsTap,
+                  child: Container(child: Icon(Icons.message)))),
       ],
     );
   }

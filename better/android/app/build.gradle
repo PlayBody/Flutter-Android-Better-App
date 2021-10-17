@@ -38,7 +38,7 @@ android {
         applicationId "co.jp.sns.better"
         minSdkVersion 19
         targetSdkVersion 30
-        versionCode 4
+        versionCode 6
         versionName '1.0.2'
     }
 

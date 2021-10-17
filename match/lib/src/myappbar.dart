@@ -1,7 +1,8 @@
 // Copyright 2020, the Flutter project authors. Please see the AUTHORS file
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
-import '../common/functions.dart';
+
+import 'package:Match/common/functions.dart';
 import 'package:flutter/material.dart';
 
 import '../common/globals.dart' as globals;
@@ -11,7 +12,9 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String? actionType;
   final bool? isLeading;
   final GestureTapCallback? blockTap;
-  const MyAppBar({this.actionType, this.isLeading, this.blockTap, Key? key})
+  final GestureTapCallback? newsTap;
+  const MyAppBar(
+      {this.actionType, this.isLeading, this.blockTap, this.newsTap, Key? key})
       : super(key: key);
   @override
   Size get preferredSize => const Size.fromHeight(60);
@@ -57,9 +60,8 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
                       padding: EdgeInsets.all(0),
                       elevation: 0,
                       onPrimary: Colors.white),
-                  onPressed: () {},
-                  child: Container(
-                      child: Icon(Icons.notifications_none_outlined)))),
+                  onPressed: newsTap,
+                  child: Container(child: Icon(Icons.message)))),
       ],
     );
   }
